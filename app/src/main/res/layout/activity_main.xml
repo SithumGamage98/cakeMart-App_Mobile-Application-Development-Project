@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/addDeliveryDili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/enteraddress"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toEndOf="@+id/AddressDeli"
+        app:layout_constraintTop_toBottomOf="@+id/addPhoneDili" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="172dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="468dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toEndOf="@+id/LocationDeli"
+        app:layout_constraintTop_toBottomOf="@+id/addDeliveryDili" />
+
+    <EditText
+        android:id="@+id/addPhoneDili"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/addphone"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toEndOf="@+id/PhoneDeli"
+        app:layout_constraintTop_toBottomOf="@+id/addNameDeli" />
+
+    <TextView
+        android:id="@+id/orderTypeDeli"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Order Type"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LocationDeli" />
+
+    <TextView
+        android:id="@+id/LocationDeli"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Location "
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddressDeli" />
+
+    <TextView
+        android:id="@+id/AddressDeli"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Delivery Address"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneDeli" />
+
+    <TextView
+        android:id="@+id/PhoneDeli"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Phone(Your/Recipient's)"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameDeli" />
+
+    <TextView
+        android:id="@+id/nameDeli"
+        android:layout_width="170dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Name(Your/Recipient's"
+        android:textColor="@color/black"
+        android:textColorHint="@color/back2"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeleveryPage" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="233dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:backgroundTint="#FFFF4444"
+        android:text="@string/submitbtn"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGrpType"
+        app:strokeColor="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/DeleveryPage"
+        android:layout_width="239dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Create Delivery"
+        android:textColor="@android:color/system_accent1_400"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <RadioGroup
+        android:id="@+id/radioGrpType"
+        android:layout_width="186dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toEndOf="@+id/orderTypeDeli"
+        app:layout_constraintTop_toBottomOf="@+id/addLocationDeli">
+
+        <RadioButton
+            android:id="@+id/radioGiftDili"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/gift"
+            android:textAlignment="gravity"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textColorLink="@color/butt2"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/RadioOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radioother"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/addNameDeli"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/entername"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/nameDeli"
+        app:layout_constraintTop_toBottomOf="@+id/DeleveryPage" />
+
+    <EditText
+        android:id="@+id/addLocationDeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/location"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/LocationDeli"
+        app:layout_constraintTop_toBottomOf="@+id/addDeliveryDili" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="442dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/th__2_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

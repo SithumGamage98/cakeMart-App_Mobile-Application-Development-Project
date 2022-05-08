@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cake Mart</string>
+    <string name="createdelevery">Create Delevery</string>
+    <string name="name">Name</string>
+    <string name="entername">Enter Name</string>
+    <string name="radioother">other</string>
+
+    <string name="addphone">Phone Number</string>
+    <string name="location">Location</string>
+    <string name="enteraddress">Enter Address</string>
+    <string name="submitbtn">Submit Details</string>
+    <string name="delimanagement">Delivery Management</string>
+    <string name="delimanager">Delevery management</string>
+    <string name="yourname">Enter Your Name</string>
+    <string name="searchBtn">Search</string>
+    <string name="gift">Gift</string>
+    <string name="other">Other</string>
+    <string name="changephone">Enter new phone</string>
+    <string name="changeaddress">Enter new address</string>
+    <string name="changeLoca">Enter new Location</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btndelete">Delete</string>
+    <string name="searchbutton">Search</string>
+    <string name="enterphone">Enter new phone</string>
+    <string name="adddeleverypers">Add Delivery Person</string>
+    <string name="addperson">Add Delivery Person</string>
+    <string name="getdelivery">Get Delivery</string>
+    <string name="opensearch">Go Search Page</string>
+    <string name="getcrud">UPDATE and DELETE Deliverys</string>
+    <string name="getSearchU">SEARCH Delivery details</string>
+    <string name="btnback">Back</string>
+    <string name="text2"><![CDATA[Ready to fast & safty cake delivery..]]></string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/BtnSearch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    tools:context=".DeliveryManagement">
+
+
+    ///////
+
+
+    <TextView
+        android:id="@+id/deliManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/delimanagement"
+        android:textAlignment="center"
+        android:textColor="@color/material_dynamic_primary70"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/EnterNameDManager"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:hint="@string/yourname"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="210dp">
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF0099CC"
+            android:text="@string/searchbutton" />
+
+        <EditText
+            android:id="@+id/enterPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enterphone"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/changeAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/changeaddress"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/changeLocation"
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:ems="10"
+            android:hint="@string/changeLoca"
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/RadiGift"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="@string/gift"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/radiOther"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:text="@string/other"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF4BB6E8"
+        android:text="@string/btnUpdate"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFF4444"
+        android:text="@string/btndelete"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/cover" />
+
+</LinearLayout>
